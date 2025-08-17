@@ -1,0 +1,444 @@
+
+console.info('Hello, World! (Loaded server scripts)')
+
+ServerEvents.tags('entity', event => {
+  event.add('supplementaries:jar_catchable', 'betterend:end_slime')
+  event.add('supplementaries:jar_catchable', 'betterend:end_fish')
+  event.add('supplementaries:jar_catchable', 'betterend:cubozoa')
+  event.add('supplementaries:jar_catchable', 'betternether:firefly')
+  event.add('supplementaries:jar_catchable', 'crittersandcompanions:dumbo_octopus')
+  event.add('supplementaries:jar_catchable', 'crittersandcompanions:sea_bunny')
+  event.add('supplementaries:jar_catchable', 'hybrid-aquatic:african_butterfly')
+  event.add('supplementaries:jar_catchable', 'hybrid-aquatic:barreleye')
+  event.add('supplementaries:jar_catchable', 'hybrid-aquatic:betta')
+  event.add('supplementaries:jar_catchable', 'hybrid-aquatic:damselfish')
+  event.add('supplementaries:jar_catchable', 'hybrid-aquatic:carp')
+  event.add('supplementaries:jar_catchable', 'hybrid-aquatic:clownfish')
+  event.add('supplementaries:jar_catchable', 'hybrid-aquatic:boxfish')
+  event.add('supplementaries:jar_catchable', 'hybrid-aquatic:danio')
+  event.add('supplementaries:jar_catchable', 'hybrid-aquatic:discus')
+  event.add('supplementaries:jar_catchable', 'hybrid-aquatic:flashlight_fish')
+  event.add('supplementaries:jar_catchable', 'hybrid-aquatic:squirrelfish')
+  event.add('supplementaries:jar_catchable', 'hybrid-aquatic:pearlfish')
+  event.add('supplementaries:jar_catchable', 'hybrid-aquatic:flying_fish')
+  event.add('supplementaries:jar_catchable', 'hybrid-aquatic:goldfish')
+  event.add('supplementaries:jar_catchable', 'hybrid-aquatic:gourami')
+  event.add('supplementaries:jar_catchable', 'hybrid-aquatic:mackerel')
+  event.add('supplementaries:jar_catchable', 'hybrid-aquatic:oscar')
+  event.add('supplementaries:jar_catchable', 'hybrid-aquatic:piranha')
+  event.add('supplementaries:jar_catchable', 'hybrid-aquatic:rockfish')
+  event.add('supplementaries:jar_catchable', 'hybrid-aquatic:seahorse')
+  event.add('supplementaries:jar_catchable', 'hybrid-aquatic:surgeonfish')
+  event.add('supplementaries:jar_catchable', 'hybrid-aquatic:tetra')
+  event.add('supplementaries:jar_catchable', 'hybrid-aquatic:tiger_barb')
+  event.add('supplementaries:jar_catchable', 'hybrid-aquatic:toadfish')
+  event.add('supplementaries:jar_catchable', 'hybrid-aquatic:snailfish')
+  event.add('supplementaries:jar_catchable', 'hybrid-aquatic:nautilus')
+  event.add('supplementaries:jar_catchable', 'hybrid-aquatic:umbrella_octopus')
+  event.add('supplementaries:jar_catchable', 'hybrid-aquatic:moon_jellyfish')
+  event.add('supplementaries:jar_catchable', 'hybrid-aquatic:box_jellyfish')
+  event.add('supplementaries:jar_catchable', 'hybrid-aquatic:mauve_stinger')
+  event.add('supplementaries:jar_catchable', 'hybrid-aquatic:cosmic_jellyfish')
+  event.add('supplementaries:jar_catchable', 'hybrid-aquatic:firework_jellyfish')
+  event.add('supplementaries:jar_catchable', 'hybrid-aquatic:shrimp')
+  event.add('supplementaries:jar_catchable', 'hybrid-aquatic:nudibranch')
+  event.add('supplementaries:jar_catchable', 'hybrid-aquatic:sea_urchin')
+  event.add('supplementaries:jar_catchable', 'hybrid-aquatic:sea_cucumber')
+  event.add('supplementaries:jar_catchable', 'hybrid-aquatic:starfish')
+  event.add('supplementaries:jar_catchable', 'hybrid-aquatic:sea_angel')
+  event.add('supplementaries:jar_catchable', 'hybrid-aquatic:lantern_shark')
+})
+
+ServerEvents.tags('item', event => {
+  //
+  event.add('c:foods', 'galosphere:lichen_cordyceps')
+  event.add('c:foods', 'galosphere:golden_lichen_cordyceps')
+  event.add('c:foods', 'verdance:mulberry')
+  event.add('c:foods', 'galosphere:lichen_cordyceps')
+  event.add('c:foods', 'supplementaries:candy')
+  event.add('c:foods', 'spelunkery:button_mushroom')
+  event.add('c:foods', 'spelunkery:crimini')
+  event.add('c:foods', 'spelunkery:portabella')
+  event.add('c:foods', 'spelunkery:grilled_portabella')
+  event.add('c:foods', '#c:fruits')
+  event.add('c:foods', 'verdance:cataloupe_slice')
+  event.add('c:foods', 'verdance:grilled_cataloupe_slice')
+  event.add('c:foods', 'nirvana:bong')
+  event.add('c:foods', 'nirvana:weed_brownie')
+  event.add('c:foods', 'nirvana:joint')
+  event.add('c:foods', 'nirvana:herbal_salve')
+  event.add('c:foods', 'splash_milk:milk_bottle')
+  //touhou melee tag to tag
+  event.add('touhouorigins:melee_weapons', '#rpg_series:tier_0_weapons')
+  event.add('touhouorigins:melee_weapons', '#rpg_series:tier_1_weapons')
+  event.add('touhouorigins:melee_weapons', '#rpg_series:tier_2_weapons')
+  event.add('touhouorigins:melee_weapons', '#rpg_series:tier_3_weapons')
+  event.add('touhouorigins:melee_weapons', '#rpg_series:tier_4_weapons')
+  event.add('touhouorigins:melee_weapons', '#death_knights:dk_weapons')
+  event.add('touhouorigins:melee_weapons', '#minecraft:tools')
+  event.add('touhouorigins:melee_weapons', 'farmersknives:nether_ruby_knife')
+  event.add('touhouorigins:melee_weapons', 'supplimentaries:wrench')
+
+  //twohandsies
+  event.add('fh:twohanded', 'archers:aeternium_spear')
+  event.add('fh:twohanded', 'archers:composite_longbow')
+  event.add('fh:twohanded', 'archers:crystal_longbow')
+  event.add('fh:twohanded', 'archers:diamond_spear')
+  event.add('fh:twohanded', 'archers:flint_spear')
+  event.add('fh:twohanded', 'archers:golden_spear')
+  event.add('fh:twohanded', 'archers:heavy_crossbow')
+  event.add('fh:twohanded', 'archers:iron_spear')
+  event.add('fh:twohanded', 'archers:netherite_heavy_crossbow')
+  event.add('fh:twohanded', 'archers:netherite_longbow')
+  event.add('fh:twohanded', 'archers:netherite_spear')
+  event.add('fh:twohanded', 'archers:royal_longbow')
+  event.add('fh:twohanded', 'archers:ruby_crossbow')
+  event.add('fh:twohanded', 'archers:ruby_spear')
+  event.add('fh:twohanded', 'basicweapons:diamond_glaive')
+  event.add('fh:twohanded', 'basicweapons:diamond_quarterstaff')
+  event.add('fh:twohanded', 'basicweapons:diamond_spear')
+  event.add('fh:twohanded', 'basicweapons:golden_glaive')
+  event.add('fh:twohanded', 'basicweapons:golden_quarterstaff')
+  event.add('fh:twohanded', 'basicweapons:golden_spear')
+  event.add('fh:twohanded', 'basicweapons:iron_glaive')
+  event.add('fh:twohanded', 'basicweapons:iron_quarterstaff')
+  event.add('fh:twohanded', 'basicweapons:iron_spear')
+  event.add('fh:twohanded', 'basicweapons:netherite_glaive')
+  event.add('fh:twohanded', 'basicweapons:netherite_quarterstaff')
+  event.add('fh:twohanded', 'basicweapons:netherite_spear')
+  event.add('fh:twohanded', 'basicweapons:stone_glaive')
+  event.add('fh:twohanded', 'basicweapons:stone_quarterstaff')
+  event.add('fh:twohanded', 'basicweapons:stone_spear')
+  event.add('fh:twohanded', 'basicweapons:wooden_glaive')
+  event.add('fh:twohanded', 'basicweapons:wooden_quarterstaff')
+  event.add('fh:twohanded', 'basicweapons:wooden_spear')
+  event.add('fh:twohanded', 'death_knights:great_aeternium_runeaxe')
+  event.add('fh:twohanded', 'death_knights:great_aeternium_runeblade')
+  event.add('fh:twohanded', 'death_knights:great_diamond_runeaxe')
+  event.add('fh:twohanded', 'death_knights:great_diamond_runeblade')
+  event.add('fh:twohanded', 'death_knights:great_iron_runeaxe')
+  event.add('fh:twohanded', 'death_knights:great_iron_runeblade')
+  event.add('fh:twohanded', 'death_knights:great_netherite_runeaxe')
+  event.add('fh:twohanded', 'death_knights:great_netherite_runeblade')
+  event.add('fh:twohanded', 'death_knights:great_ruby_runeaxe')
+  event.add('fh:twohanded', 'death_knights:great_ruby_runeblade')
+  event.add('fh:twohanded', 'paladins:aeternium_clayamore')
+  event.add('fh:twohanded', 'paladins:aeternium_great_hammer')
+  event.add('fh:twohanded', 'paladins:aeternium_mace')
+  event.add('fh:twohanded', 'paladins:diamond_clayamore')
+  event.add('fh:twohanded', 'paladins:diamond_great_hammer')
+  event.add('fh:twohanded', 'paladins:diamond_mace')
+  event.add('fh:twohanded', 'paladins:golden_clayamore')
+  event.add('fh:twohanded', 'paladins:golden_great_hammer')
+  event.add('fh:twohanded', 'paladins:golden_mace')
+  event.add('fh:twohanded', 'paladins:iron_clayamore')
+  event.add('fh:twohanded', 'paladins:iron_great_hammer')
+  event.add('fh:twohanded', 'paladins:iron_mace')
+  event.add('fh:twohanded', 'paladins:nehterite_clayamore')
+  event.add('fh:twohanded', 'paladins:nehterite_mace')
+  event.add('fh:twohanded', 'paladins:netherite_great_hammer')
+  event.add('fh:twohanded', 'paladins:ruby_clayamore')
+  event.add('fh:twohanded', 'paladins:ruby_great_hammer')
+  event.add('fh:twohanded', 'paladins:ruby_mace')
+  event.add('fh:twohanded', 'paladins:stone_clayamore')
+  event.add('fh:twohanded', 'paladins:stone_great_hammer')
+  event.add('fh:twohanded', 'paladins:wooden_great_hammer')
+  event.add('fh:twohanded', 'rouges:aeternium_double_axe')
+  event.add('fh:twohanded', 'rouges:aeternium_glaive')
+  event.add('fh:twohanded', 'rouges:diamond_double_axe')
+  event.add('fh:twohanded', 'rouges:diamond_glaive')
+  event.add('fh:twohanded', 'rouges:golden_double_axe')
+  event.add('fh:twohanded', 'rouges:golden_glaive')
+  event.add('fh:twohanded', 'rouges:iron_double_axe')
+  event.add('fh:twohanded', 'rouges:iron_glaive')
+  event.add('fh:twohanded', 'rouges:netherite_double_axe')
+  event.add('fh:twohanded', 'rouges:netherite_glaive')
+  event.add('fh:twohanded', 'rouges:ruby_double_axe')
+  event.add('fh:twohanded', 'rouges:ruby_glaive')
+  event.add('fh:twohanded', 'rouges:stone_double_axe')
+  event.add('fh:twohanded', 'weaponworks:diamond_greatsword')
+  event.add('fh:twohanded', 'weaponworks:diamond_halberd')
+  event.add('fh:twohanded', 'weaponworks:diamond_hammer')
+  event.add('fh:twohanded', 'weaponworks:diamond_katana')
+  event.add('fh:twohanded', 'weaponworks:diamond_scythe')
+  event.add('fh:twohanded', 'weaponworks:diamond_spear')
+  event.add('fh:twohanded', 'weaponworks:golden_greatsword')
+  event.add('fh:twohanded', 'weaponworks:golden_halberd')
+  event.add('fh:twohanded', 'weaponworks:golden_hammer')
+  event.add('fh:twohanded', 'weaponworks:golden_katana')
+  event.add('fh:twohanded', 'weaponworks:golden_scythe')
+  event.add('fh:twohanded', 'weaponworks:golden_spear')
+  event.add('fh:twohanded', 'weaponworks:iron_greatsword')
+  event.add('fh:twohanded', 'weaponworks:iron_halberd')
+  event.add('fh:twohanded', 'weaponworks:iron_hammer')
+  event.add('fh:twohanded', 'weaponworks:iron_katana')
+  event.add('fh:twohanded', 'weaponworks:iron_scythe')
+  event.add('fh:twohanded', 'weaponworks:iron_spear')
+  event.add('fh:twohanded', 'weaponworks:netherite_greatsword')
+  event.add('fh:twohanded', 'weaponworks:netherite_halberd')
+  event.add('fh:twohanded', 'weaponworks:netherite_hammer')
+  event.add('fh:twohanded', 'weaponworks:netherite_katana')
+  event.add('fh:twohanded', 'weaponworks:netherite_scythe')
+  event.add('fh:twohanded', 'weaponworks:netherite_spear')
+  event.add('fh:twohanded', 'weaponworks:stone_greatsword')
+  event.add('fh:twohanded', 'weaponworks:stone_halberd')
+  event.add('fh:twohanded', 'weaponworks:stone_hammer')
+  event.add('fh:twohanded', 'weaponworks:stone_katana')
+  event.add('fh:twohanded', 'weaponworks:stone_scythe')
+  event.add('fh:twohanded', 'weaponworks:stone_spear')
+  event.add('fh:twohanded', 'weaponworks:wooden_greatsword')
+  event.add('fh:twohanded', 'weaponworks:wooden_halberd')
+  event.add('fh:twohanded', 'weaponworks:wooden_hammer')
+  event.add('fh:twohanded', 'weaponworks:wooden_katana')
+  event.add('fh:twohanded', 'weaponworks:wooden_scythe')
+  event.add('fh:twohanded', 'weaponworks:wooden_spear')
+  // Get the C:Salt_Dusts tag and add the Vegan Delight Salt? Hopefully?
+  event.add('c:salt_dusts', 'vegandelight:salt')
+  event.add('c:salt_dust', 'vegandelight:salt')
+  event.add('c:salt', 'vegandelight:salt')
+  //Silver! The fh:silver tag is to tag everything made with or containing Silver.
+  event.add('fh:silver', 'galosphere:silver_ingot')
+  event.add('fh:silver', 'galosphere:silver_nugget')
+  event.add('fh:silver', 'galosphere:silver_ore')
+  event.add('fh:silver', 'galosphere:deepslate_silver_ore')
+  event.add('fh:silver', 'galosphere:silver_block')
+  event.add('fh:silver', 'galosphere:raw_silver_block')
+  event.add('fh:silver', 'galosphere:silver_panel')
+  event.add('fh:silver', 'galosphere:silver_panel_stairs')
+  event.add('fh:silver', 'galosphere:silver_panel_slab')
+  event.add('fh:silver', 'galosphere:silver_tiles')
+  event.add('fh:silver', 'galosphere:silver_tiles_slab')
+  event.add('fh:silver', 'galosphere:silver_tiles_stairs')
+  event.add('fh:silver', 'galosphere:raw_silver')
+  event.add('fh:silver', 'galosphere:silver_lattice')
+  event.add('fh:silver', 'galosphere:silver_balance')
+  event.add('fh:silver', 'galosphere:silver_bomb')
+  event.add('fh:silver', 'galosphere:silver_upgrade_smithing_template')
+  event.add('fh:silver', 'galosphere:sterling_chestplate')
+  event.add('fh:silver', 'galosphere:sterling_helmet')
+  event.add('fh:silver', 'galosphere:sterling_leggings')
+  event.add('fh:silver', 'galosphere:sterling_boots')
+  event.add('fh:silver', 'galosphere:sterling_horse_armor')
+  event.add('fh:silver', 'galosphere:pink_salt_lamp')
+  event.add('fh:silver', 'galosphere:barometer')
+  event.add('fh:silver', 'galosphere:combustion_table')
+  event.add('fh:silver', 'galosphere:shadow_frame')
+  event.add('fh:silver', 'galosphere:spectre_flare')
+  //oni melee weapon tagging
+  event.add('touhouorigins:melee_weapons', 'basicweapons:wooden_dagger')
+  event.add('touhouorigins:melee_weapons', 'basicweapons:wooden_hammer')
+  event.add('touhouorigins:melee_weapons', 'basicweapons:wooden_club')
+  event.add('touhouorigins:melee_weapons', 'basicweapons:wooden_spear')
+  event.add('touhouorigins:melee_weapons', 'basicweapons:wooden_quarterstaff')
+  event.add('touhouorigins:melee_weapons', 'basicweapons:wooden_glaive')
+  event.add('touhouorigins:melee_weapons', 'basicweapons:stone_dagger')
+  event.add('touhouorigins:melee_weapons', 'basicweapons:stone_hammer')
+  event.add('touhouorigins:melee_weapons', 'basicweapons:stone_club')
+  event.add('touhouorigins:melee_weapons', 'basicweapons:stone_spear')
+  event.add('touhouorigins:melee_weapons', 'basicweapons:stone_quarterstaff')
+  event.add('touhouorigins:melee_weapons', 'basicweapons:stone_glaive')
+  event.add('touhouorigins:melee_weapons', 'basicweapons:iron_dagger')
+  event.add('touhouorigins:melee_weapons', 'basicweapons:iron_hammer')
+  event.add('touhouorigins:melee_weapons', 'basicweapons:iron_club')
+  event.add('touhouorigins:melee_weapons', 'basicweapons:iron_spear')
+  event.add('touhouorigins:melee_weapons', 'basicweapons:iron_quarterstaff')
+  event.add('touhouorigins:melee_weapons', 'basicweapons:iron_glaive')
+  event.add('touhouorigins:melee_weapons', 'basicweapons:gold_dagger')
+  event.add('touhouorigins:melee_weapons', 'basicweapons:gold_hammer')
+  event.add('touhouorigins:melee_weapons', 'basicweapons:gold_club')
+  event.add('touhouorigins:melee_weapons', 'basicweapons:gold_spear')
+  event.add('touhouorigins:melee_weapons', 'basicweapons:gold_quarterstaff')
+  event.add('touhouorigins:melee_weapons', 'basicweapons:gold_glaive')
+  event.add('touhouorigins:melee_weapons', 'basicweapons:diamond_dagger')
+  event.add('touhouorigins:melee_weapons', 'basicweapons:diamond_hammer')
+  event.add('touhouorigins:melee_weapons', 'basicweapons:diamond_club')
+  event.add('touhouorigins:melee_weapons', 'basicweapons:diamond_spear')
+  event.add('touhouorigins:melee_weapons', 'basicweapons:diamond_quarterstaff')
+  event.add('touhouorigins:melee_weapons', 'basicweapons:diamond_glaive')
+  event.add('touhouorigins:melee_weapons', 'basicweapons:netherite_dagger')
+  event.add('touhouorigins:melee_weapons', 'basicweapons:netherite_hammer')
+  event.add('touhouorigins:melee_weapons', 'basicweapons:netherite_club')
+  event.add('touhouorigins:melee_weapons', 'basicweapons:netherite_spear')
+  event.add('touhouorigins:melee_weapons', 'basicweapons:netherite_quarterstaff')
+  event.add('touhouorigins:melee_weapons', 'basicweapons:netherite_glaive')
+  event.add('touhouorigins:melee_weapons', 'weaponworks:wooden_greatsword')
+  event.add('touhouorigins:melee_weapons', 'weaponworks:wooden_hammer')
+  event.add('touhouorigins:melee_weapons', 'weaponworks:wooden_halberd')
+  event.add('touhouorigins:melee_weapons', 'weaponworks:wooden_katana')
+  event.add('touhouorigins:melee_weapons', 'weaponworks:wooden_rapier')
+  event.add('touhouorigins:melee_weapons', 'weaponworks:wooden_scythe')
+  event.add('touhouorigins:melee_weapons', 'weaponworks:wooden_warglaive')
+  event.add('touhouorigins:melee_weapons', 'weaponworks:wooden_mace')
+  event.add('touhouorigins:melee_weapons', 'weaponworks:wooden_spear')
+  event.add('touhouorigins:melee_weapons', 'weaponworks:stone_greatsword')
+  event.add('touhouorigins:melee_weapons', 'weaponworks:stone_hammer')
+  event.add('touhouorigins:melee_weapons', 'weaponworks:stone_halberd')
+  event.add('touhouorigins:melee_weapons', 'weaponworks:stone_katana')
+  event.add('touhouorigins:melee_weapons', 'weaponworks:stone_rapier')
+  event.add('touhouorigins:melee_weapons', 'weaponworks:stone_scythe')
+  event.add('touhouorigins:melee_weapons', 'weaponworks:stone_warglaive')
+  event.add('touhouorigins:melee_weapons', 'weaponworks:stone_mace')
+  event.add('touhouorigins:melee_weapons', 'weaponworks:stone_spear')
+  event.add('touhouorigins:melee_weapons', 'weaponworks:iron_greatsword')
+  event.add('touhouorigins:melee_weapons', 'weaponworks:iron_hammer')
+  event.add('touhouorigins:melee_weapons', 'weaponworks:iron_halberd')
+  event.add('touhouorigins:melee_weapons', 'weaponworks:iron_katana')
+  event.add('touhouorigins:melee_weapons', 'weaponworks:iron_rapier')
+  event.add('touhouorigins:melee_weapons', 'weaponworks:iron_scythe')
+  event.add('touhouorigins:melee_weapons', 'weaponworks:iron_warglaive')
+  event.add('touhouorigins:melee_weapons', 'weaponworks:iron_mace')
+  event.add('touhouorigins:melee_weapons', 'weaponworks:iron_spear')
+  event.add('touhouorigins:melee_weapons', 'weaponworks:gold_greatsword')
+  event.add('touhouorigins:melee_weapons', 'weaponworks:gold_hammer')
+  event.add('touhouorigins:melee_weapons', 'weaponworks:gold_halberd')
+  event.add('touhouorigins:melee_weapons', 'weaponworks:gold_katana')
+  event.add('touhouorigins:melee_weapons', 'weaponworks:gold_rapier')
+  event.add('touhouorigins:melee_weapons', 'weaponworks:gold_scythe')
+  event.add('touhouorigins:melee_weapons', 'weaponworks:gold_warglaive')
+  event.add('touhouorigins:melee_weapons', 'weaponworks:gold_mace')
+  event.add('touhouorigins:melee_weapons', 'weaponworks:gold_spear')
+  event.add('touhouorigins:melee_weapons', 'weaponworks:diamond_greatsword')
+  event.add('touhouorigins:melee_weapons', 'weaponworks:diamond_hammer')
+  event.add('touhouorigins:melee_weapons', 'weaponworks:diamond_halberd')
+  event.add('touhouorigins:melee_weapons', 'weaponworks:diamond_katana')
+  event.add('touhouorigins:melee_weapons', 'weaponworks:diamond_rapier')
+  event.add('touhouorigins:melee_weapons', 'weaponworks:diamond_scythe')
+  event.add('touhouorigins:melee_weapons', 'weaponworks:diamond_warglaive')
+  event.add('touhouorigins:melee_weapons', 'weaponworks:diamond_mace')
+  event.add('touhouorigins:melee_weapons', 'weaponworks:diamond_spear')
+  event.add('touhouorigins:melee_weapons', 'weaponworks:netherite_greatsword')
+  event.add('touhouorigins:melee_weapons', 'weaponworks:netherite_hammer')
+  event.add('touhouorigins:melee_weapons', 'weaponworks:netherite_halberd')
+  event.add('touhouorigins:melee_weapons', 'weaponworks:netherite_katana')
+  event.add('touhouorigins:melee_weapons', 'weaponworks:netherite_rapier')
+  event.add('touhouorigins:melee_weapons', 'weaponworks:netherite_scythe')
+  event.add('touhouorigins:melee_weapons', 'weaponworks:netherite_warglaive')
+  event.add('touhouorigins:melee_weapons', 'weaponworks:netherite_mace')
+  event.add('touhouorigins:melee_weapons', 'weaponworks:netherite_spear')
+})
+ServerEvents.tags('block', event => {
+  event.add('fh:silver', 'galosphere:silver_ore')
+  event.add('fh:silver', 'galosphere:deepslate_silver_ore')
+  event.add('fh:silver', 'galosphere:silver_block')
+  event.add('fh:silver', 'galosphere:raw_silver_block')
+  event.add('fh:silver', 'galosphere:silver_panel')
+  event.add('fh:silver', 'galosphere:silver_panel_stairs')
+  event.add('fh:silver', 'galosphere:silver_panel_slab')
+  event.add('fh:silver', 'galosphere:silver_tiles')
+  event.add('fh:silver', 'galosphere:silver_tiles_slab')
+  event.add('fh:silver', 'galosphere:silver_tiles_stairs')
+  event.add('fh:silver', 'galosphere:silver_lattice')
+  event.add('fh:silver', 'galosphere:silver_balance')
+  event.add('fh:silver', 'galosphere:pink_salt_lamp')
+  event.add('fh:silver', 'galosphere:combustion_table')
+  event.add('fh:silver', 'galosphere:shadow_frame')
+})
+
+ServerEvents.recipes(event => {
+
+  event.remove({ output: 'ravencoffee:coffee_beans_magma' })
+
+  event.remove({ output: 'lockandblock:tesla_coil' })
+
+  event.remove({ output: 'galosphere:saltbound_tablet' })
+
+  event.remove({ output: 'sn0wfrogs_capybaras:thermal_spring' })
+
+  event.remove({ output: 'wheelchairs:service_vest' })
+
+  event.remove({ output: 'wheelchairs:controller' })
+
+  event.remove({ output: 'clutter:tube_tv' })
+
+  event.remove({ output: 'herbalbrews:cauldron' })
+
+  event.remove({ output: 'vinery:straw_hat' })
+
+  event.remove({ output: 'vinery:winemaker_boots' })
+
+  event.remove({ output: 'vinery:winemaker_leggings' })
+
+  event.remove({ output: 'vinery:winemaker_apron' })
+
+  event.remove({ output: 'furniture:bin' })
+
+  event.remove({ output: 'brewinandchewin:quiche' })
+
+  event.remove({ output: 'createrailwaysnavigator:navigator' })
+
+  event.remove({ output: 'mcwwindows:one_way_glass' })
+
+  event.remove({ output: 'mcwwindows:one_way_glass_pane' })
+
+  event.shapeless(
+    Item.of('vegandelight:salt', 1),
+    [
+      '#c:salt'
+    ]),
+    event.shapeless(
+      Item.of('createfood:salt', 1),
+      [
+        '#c:salt'
+      ]),
+    event.shapeless(
+      Item.of('spelunkery:salt', 1),
+      [
+        '#c:salt'
+      ]),
+    event.shapeless(
+      Item.of('croptopia:salt', 1),
+      [
+        '#c:salt'
+      ]),
+    event.shapeless(
+      Item.of('expandeddelight:ground_salt', 1),
+      [
+        '#c:salt'
+      ]),
+    event.shapeless(
+      Item.of('supplementaries:gravel_bricks', 1),
+      [
+        'twigs:gravel_bricks'
+      ]),
+    event.shapeless(
+      Item.of('twigs:gravel_bricks', 1),
+      [
+        'supplementaries:gravel_bricks'
+      ])
+  event.shaped(
+    Item.of('minecraft:enchanted_golden_apple'),
+    [
+      'ABA',
+      'DED',
+      'CFC'
+    ],
+    {
+      A: 'minecraft:diamond_block',
+      B: 'minecraft:totem_of_undying',
+      C: 'minecraft:gold_block',
+      D: 'minecraft:ender_eye',
+      E: 'minecraft:golden_apple',
+      F: 'minecraft:nether_star'
+    }
+  )
+}
+)
+ServerEvents.recipes(event => {
+  function yafBox(wood) {
+
+    event.remove({
+      output: "yaf:" + wood + "_mailbox"
+    })
+  }
+  yafBox("oak")
+  yafBox("cherry")
+  yafBox("bamboo")
+  yafBox("crimson")
+  yafBox("dark_oak")
+  yafBox("birch")
+  yafBox("mangrove")
+  yafBox("jungle")
+  yafBox("acacia")
+  yafBox("spruce")
+  yafBox("warped")
+})
