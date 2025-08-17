@@ -1,0 +1,8 @@
+{
+  "animation": "land",
+  "height_increment": 10.2,
+  "owners": [
+    "hybrid-aquatic:spider_crab"
+  ],
+  "width_increment": 10.4
+}

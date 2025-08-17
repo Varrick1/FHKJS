@@ -1,0 +1,12 @@
+{
+  "animation": "floating",
+  "height_increment": 0.0,
+  "owners": [
+   "betterend:cubozoa",
+   "betterend:end_fish",
+   "crittersandcompanions:dumbo_octopus",
+   "crittersandcompanions:sea_bunny"
+  ],
+  "force_fluid": "minecraft:water",
+  "width_increment": 0.0
+}
