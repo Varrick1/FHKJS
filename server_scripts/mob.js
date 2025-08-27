@@ -136,10 +136,10 @@ ServerEvents.recipes(event => {
                     "item": "twigs:cobblestone_bricks"
                 },
                 {
-                    "item": "twigs:cobblestone_bricks"
+                    "item": "minecraft:flint"
                 },
                 {
-                    "item": "minecraft:basalt"
+                    "item": "minecraft:flint"
                 },
                 {
                     "amount": 8100,
