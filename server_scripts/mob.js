@@ -1,5 +1,5 @@
 ServerEvents.recipes(event => {
-event.shaped(
+    event.shaped(
         Item.of('verdance:silkworm_eggs'),
         [
             'DSD',
@@ -7,15 +7,15 @@ event.shaped(
             'YSY'
         ],
         {
-            D:'minecraft:white_dye',
-            S:'crittersandcompanions:silk',
-            E:'minecraft:egg',
-            Y:'minecraft:yellow_dye'
+            D: 'minecraft:white_dye',
+            S: 'crittersandcompanions:silk',
+            E: 'minecraft:egg',
+            Y: 'minecraft:yellow_dye'
 
         }
     )
 
-event.shaped(
+    event.shaped(
         Item.of('naturalist:caterpillar'),
         [
             'DSD',
@@ -23,15 +23,15 @@ event.shaped(
             'YSY'
         ],
         {
-            D:'minecraft:red_dye',
-            S:'crittersandcompanions:silk',
-            E:'minecraft:egg',
-            Y:'minecraft:lime_dye'
+            D: 'minecraft:red_dye',
+            S: 'crittersandcompanions:silk',
+            E: 'minecraft:egg',
+            Y: 'minecraft:lime_dye'
 
         }
     )
 
-event.shaped(
+    event.shaped(
         Item.of('mcdw:crossbow_cog_crossbow'),
         [
             ' S ',
@@ -40,8 +40,8 @@ event.shaped(
         ],
         {
 
-            S:'create:cogwheel',
-            E:'minecraft:crossbow'
+            S: 'create:cogwheel',
+            E: 'minecraft:crossbow'
 
         }
     )
@@ -55,9 +55,9 @@ event.shaped(
         ],
         {
 
-            S:'hybrid-aquatic:coral_chunk',
-            K:'mcdw:dagger_dagger',
-            G:'minecraft:gold_ingot'
+            S: 'hybrid-aquatic:coral_chunk',
+            K: 'mcdw:dagger_dagger',
+            G: 'minecraft:gold_ingot'
 
         }
     )
@@ -71,10 +71,10 @@ event.shaped(
         ],
         {
 
-            S:'hybrid-aquatic:coral_chunk',
-            K:'mcdw:sword_coral_blade',
-            G:'minecraft:gold_ingot',
-            P:'minecraft:sponge'
+            S: 'hybrid-aquatic:coral_chunk',
+            K: 'mcdw:sword_coral_blade',
+            G: 'minecraft:gold_ingot',
+            P: 'minecraft:sponge'
 
         }
     )
@@ -88,11 +88,11 @@ event.shaped(
         ],
         {
 
-            S:'minecraft:netherite_scrap',
-            O:'minecraft:obsidian',
-            B:'minecraft:blaze_rod',
-            P:'minecraft:crimson_planks',
-            C:'minecraft:crossbow'
+            S: 'minecraft:netherite_scrap',
+            O: 'minecraft:obsidian',
+            B: 'minecraft:blaze_rod',
+            P: 'minecraft:crimson_planks',
+            C: 'minecraft:crossbow'
 
         }
     )
@@ -100,7 +100,57 @@ event.shaped(
     event.shapeless(
         Item.of('mcdw:bow_ancient_bow'),
         ['minecraft:skeleton_skull',
-         'minecraft:bow'
+            'minecraft:bow'
         ]
     )
+
+    event.custom({
+            "type": "create:compacting",
+            "ingredients": [
+                {
+                    "item": "minecraft:coal"
+                },
+                {
+                    "item": "minecraft:coal"
+                },
+                {
+                    "item": "minecraft:basalt"
+                },
+                {
+                    "amount": 8100,
+                    "fluid": "minecraft:lava",
+                    "nbt": {}
+                }
+            ],
+            "results": [
+                {
+                    "item": "minecraft:blackstone"
+                }
+            ]
+    })
+
+    event.custom({
+            "type": "create:compacting",
+            "ingredients": [
+                {
+                    "item": "twigs:cobblestone_bricks"
+                },
+                {
+                    "item": "twigs:cobblestone_bricks"
+                },
+                {
+                    "item": "minecraft:basalt"
+                },
+                {
+                    "amount": 8100,
+                    "fluid": "minecraft:lava",
+                    "nbt": {}
+                }
+            ],
+            "results": [
+                {
+                    "item": "minecraft:deepslate"
+                }
+            ]
+    })
 })
