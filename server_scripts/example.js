@@ -81,11 +81,18 @@ ServerEvents.tags('item', event => {
 
   //twohandsies
   event.add('fh:twohanded', 'archers:aeternium_spear')
+  event.add('fh:twohanded', 'archers:composite_longbow')
+  event.add('fh:twohanded', 'archers:crystal_longbow')
   event.add('fh:twohanded', 'archers:diamond_spear')
   event.add('fh:twohanded', 'archers:flint_spear')
   event.add('fh:twohanded', 'archers:golden_spear')
+  event.add('fh:twohanded', 'archers:heavy_crossbow')
   event.add('fh:twohanded', 'archers:iron_spear')
+  event.add('fh:twohanded', 'archers:netherite_heavy_crossbow')
+  event.add('fh:twohanded', 'archers:netherite_longbow')
   event.add('fh:twohanded', 'archers:netherite_spear')
+  event.add('fh:twohanded', 'archers:royal_longbow')
+  event.add('fh:twohanded', 'archers:ruby_crossbow')
   event.add('fh:twohanded', 'archers:ruby_spear')
   event.add('fh:twohanded', 'basicweapons:diamond_glaive')
   event.add('fh:twohanded', 'basicweapons:diamond_quarterstaff')
