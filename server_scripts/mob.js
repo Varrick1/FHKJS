@@ -105,52 +105,95 @@ ServerEvents.recipes(event => {
     )
 
     event.custom({
-            "type": "create:compacting",
-            "ingredients": [
-                {
-                    "item": "minecraft:coal"
-                },
-                {
-                    "item": "minecraft:coal"
-                },
-                {
-                    "item": "minecraft:basalt"
-                },
-                {
-                    "amount": 8100,
-                    "fluid": "minecraft:lava",
-                    "nbt": {}
-                }
-            ],
-            "results": [
-                {
-                    "item": "minecraft:blackstone"
-                }
-            ]
+        "type": "create:compacting",
+        "ingredients": [
+            {
+                "item": "minecraft:coal"
+            },
+            {
+                "item": "minecraft:coal"
+            },
+            {
+                "item": "minecraft:basalt"
+            },
+            {
+                "amount": 8100,
+                "fluid": "minecraft:lava",
+                "nbt": {}
+            }
+        ],
+        "results": [
+            {
+                "item": "minecraft:blackstone"
+            }
+        ]
     })
 
     event.custom({
-            "type": "create:compacting",
+        "type": "create:compacting",
+        "ingredients": [
+            {
+                "item": "twigs:cobblestone_bricks"
+            },
+            {
+                "item": "minecraft:flint"
+            },
+            {
+                "item": "minecraft:flint"
+            },
+            {
+                "amount": 8100,
+                "fluid": "minecraft:lava",
+                "nbt": {}
+            }
+        ],
+        "results": [
+            {
+                "item": "minecraft:deepslate"
+            }
+        ]
+    })
+
+    function wood(output, ruwood) {
+    event.custom({
+            "type": "farmersdelight:cutting",
             "ingredients": [
                 {
-                    "item": "twigs:cobblestone_bricks"
-                },
-                {
-                    "item": "minecraft:flint"
-                },
-                {
-                    "item": "minecraft:flint"
-                },
-                {
-                    "amount": 8100,
-                    "fluid": "minecraft:lava",
-                    "nbt": {}
+                    ruwood
                 }
             ],
-            "results": [
+            "result": [
                 {
-                    "item": "minecraft:deepslate"
+                    output
+                },
+                {
+                    "item": "farmersdelight:tree_bark"
                 }
-            ]
-    })
+            ],
+            "sound": "minecraft:item.axe.strip",
+            "tool": {
+                "fabric:type": "farmersdelight:tool_action",
+                "action": "axe_strip"
+            }       
+    })}
+
+    wood('regions_unexplored:stripped_bamboo_log', "regions_unexplored:bamboo_log")
+    wood('regions_unexplored:stripped_small_oak_log', "regions_unexplored:small_oak_log")
+    wood('regions_unexplored:stripped_baobab_log', "regions_unexplored:baobab_log")
+    wood('regions_unexplored:stripped_baobab_wood', "regions_unexplored:baobab_wood")
+    wood('regions_unexplored:stripped_blackwood_log', "regions_unexplored:blackwood_log")
+    wood('regions_unexplored:stripped_blackwood_wood', "regions_unexplored:blackwood_wood")
+    wood('regions_unexplored:stripped_blue_bioshroom_stem', "regions_unexplored:blue_bioshroom_stem")
+    wood('regions_unexplored:stripped_blue_bioshroom_hyphae', "regions_unexplored:blue_bioshroom_hyphae")
+    wood('regions_unexplored:stripped_green_bioshroom_stem', "regions_unexplored:green_bioshroom_stem")
+    wood('regions_unexplored:stripped_green_bioshroom_hyphae', "regions_unexplored:green_bioshroom_hyphae")
+    wood('regions_unexplored:stripped_yellow_bioshroom_stem', "regions_unexplored:yellow_bioshroom_stem")
+    wood('regions_unexplored:stripped_yellow_bioshroom_hyphae', "regions_unexplored:yellow_bioshroom_hyphae")
+    wood('regions_unexplored:stripped_brimwood_log', "regions_unexplored:brimwood_log")
+    wood('regions_unexplored:stripped_brimwood_wood', "regions_unexplored:brimwood_wood")
+    wood('regions_unexplored:stripped_cobalt_log', "regions_unexplored:cobalt_log")
+    wood('regions_unexplored:stripped_cobalt_wood', "regions_unexplored:cobalt_wood")
+    wood('regions_unexplored:stripped_cypress_log', "regions_unexplored:cypress_log")
+    wood('regions_unexplored:stripped_cypress_wood', "regions_unexplored:cypress_wood")
+    wood('regions_unexplored:stripped_redwood_log', "regions_unexplored:redwood_log")
 })
