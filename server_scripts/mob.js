@@ -159,12 +159,12 @@ ServerEvents.recipes(event => {
             "type": "farmersdelight:cutting",
             "ingredients": [
                 {
-                    ruwood
+                    "item": ruwood
                 }
             ],
             "result": [
                 {
-                    output
+                    "item": output
                 },
                 {
                     "item": "farmersdelight:tree_bark"
