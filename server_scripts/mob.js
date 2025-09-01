@@ -55,7 +55,7 @@ ServerEvents.recipes(event => {
         ],
         {
 
-            S: 'hybrid-aquatic:coral_chunk',
+            S: 'minecraft:bubble_coral',
             K: 'mcdw:dagger_dagger',
             G: 'minecraft:gold_ingot'
 
@@ -71,7 +71,7 @@ ServerEvents.recipes(event => {
         ],
         {
 
-            S: 'hybrid-aquatic:coral_chunk',
+            S: 'minecraft:bubble_coral',
             K: 'mcdw:sword_coral_blade',
             G: 'minecraft:gold_ingot',
             P: 'minecraft:sponge'
