@@ -438,20 +438,6 @@ ServerEvents.recipes(event => {
       F: 'minecraft:nether_star'
     }
   )
-
-    event.shaped(
-    Item.of('sophisticatedbackpacks:backpack'),
-    [
-      'ASA',
-      'AEA',
-      'AAA'
-    ],
-    {
-      A: 'minecraft:leather',
-      E: 'minecraft:iron_nugget',
-      S: 'minecraft:string'
-    }
-  )
 }
 )
 ServerEvents.recipes(event => {
