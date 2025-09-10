@@ -27,7 +27,6 @@ ServerEvents.tags('block', event => {
     event.add('fh:phasing', '#c:deepslate')
     event.add('fh:phasing', 'minecraft:mud')
     event.add('fh:phasing', 'minecraft:clay')
-    event.add('fh:phasing', '#c:grass_soil')
     event.add('fh:phasing', '#c:ores')
     event.add('fh:phasing', 'spelunkery:rough_emerald_block')
     event.add('fh:phasing', 'spelunkery:rough_diamond_block')
@@ -51,6 +50,5 @@ ServerEvents.tags('block', event => {
     event.add('fh:phasing', 'minecraft:dripstone_block')
     event.add('fh:phasing', '#c:ice_blocks')
     event.add('fh:phasing', '#minecraft:dirt')
-    event.add('fh:phasing', '#c:dragon_immune')
 })
 
