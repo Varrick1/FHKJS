@@ -246,7 +246,7 @@ StartupEvents.registry('item', event => {
         .food(food => {
             food
                 .hunger(0)
-                .saturation(0)
+                .saturation(2)
                 .alwaysEdible()
         })
 //boba
@@ -256,8 +256,8 @@ StartupEvents.registry('item', event => {
         .tag('fh:drink')
         .food(food => {
             food
-                .hunger(0)
-                .saturation(0)
+                .hunger(2)
+                .saturation(2)
                 .alwaysEdible()
                 .effect('farmersdelight:comfort', 2000, 0, 1)
         })
@@ -268,8 +268,8 @@ StartupEvents.registry('item', event => {
         .tag('fh:drink')
         .food(food => {
             food
-                .hunger(0)
-                .saturation(0)
+                .hunger(2)
+                .saturation(2)
                 .alwaysEdible()
                 .effect('farmersdelight:comfort', 2000, 0, 1)
         })
@@ -280,8 +280,8 @@ StartupEvents.registry('item', event => {
         .tag('fh:drink')
         .food(food => {
             food
-                .hunger(0)
-                .saturation(0)
+                .hunger(2)
+                .saturation(2)
                 .alwaysEdible()
                 .effect('farmersdelight:comfort', 2000, 0, 1)
         })
@@ -292,8 +292,8 @@ StartupEvents.registry('item', event => {
         .tag('fh:drink')
         .food(food => {
             food
-                .hunger(0)
-                .saturation(0)
+                .hunger(2)
+                .saturation(2)
                 .alwaysEdible()
                 .effect('farmersdelight:comfort', 2000, 0, 1)
         })
@@ -304,8 +304,8 @@ StartupEvents.registry('item', event => {
         .tag('fh:drink')
         .food(food => {
             food
-                .hunger(0)
-                .saturation(0)
+                .hunger(2)
+                .saturation(2)
                 .alwaysEdible()
                 .effect('farmersdelight:comfort', 2000, 0, 1)
         })
@@ -316,8 +316,8 @@ StartupEvents.registry('item', event => {
         .tag('fh:drink')
         .food(food => {
             food
-                .hunger(0)
-                .saturation(0)
+                .hunger(2)
+                .saturation(2)
                 .alwaysEdible()
                 .effect('frightsdelight:hysteria', 2000, 0, 1)
         })
@@ -328,8 +328,8 @@ StartupEvents.registry('item', event => {
         .tag('fh:drink')
         .food(food => {
             food
-                .hunger(0)
-                .saturation(0)
+                .hunger(2)
+                .saturation(2)
                 .alwaysEdible()
                 .effect('farmersdelight:comfort', 2000, 0, 1)
         })
@@ -340,8 +340,8 @@ StartupEvents.registry('item', event => {
         .tag('fh:drink')
         .food(food => {
             food
-                .hunger(0)
-                .saturation(0)
+                .hunger(2)
+                .saturation(2)
                 .alwaysEdible()
                 .effect('farmersdelight:comfort', 2000, 0, 1)
         })
@@ -352,8 +352,8 @@ StartupEvents.registry('item', event => {
         .tag('fh:drink')
         .food(food => {
             food
-                .hunger(0)
-                .saturation(0)
+                .hunger(2)
+                .saturation(2)
                 .alwaysEdible()
                 .effect('farmersdelight:comfort', 2000, 0, 1)
         })
@@ -364,8 +364,8 @@ StartupEvents.registry('item', event => {
         .tag('fh:drink')
         .food(food => {
             food
-                .hunger(0)
-                .saturation(0)
+                .hunger(2)
+                .saturation(2)
                 .alwaysEdible()
                 .effect('farmersdelight:comfort', 2000, 0, 1)
         })
@@ -376,8 +376,8 @@ StartupEvents.registry('item', event => {
         .tag('fh:drink')
         .food(food => {
             food
-                .hunger(0)
-                .saturation(0)
+                .hunger(2)
+                .saturation(2)
                 .alwaysEdible()
                 .effect('farmersdelight:comfort', 2000, 0, 1)
         })
@@ -388,8 +388,8 @@ StartupEvents.registry('item', event => {
         .tag('fh:drink')
         .food(food => {
             food
-                .hunger(0)
-                .saturation(0)
+                .hunger(2)
+                .saturation(2)
                 .alwaysEdible()
                 .effect('farmersdelight:comfort', 2000, 0, 1)
         })
