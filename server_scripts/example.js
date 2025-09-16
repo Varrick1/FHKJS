@@ -115,25 +115,25 @@ ServerEvents.tags('item', event => {
   event.add('fh:twohanded', 'death_knights:great_netherite_runeblade')
   event.add('fh:twohanded', 'death_knights:great_ruby_runeaxe')
   event.add('fh:twohanded', 'death_knights:great_ruby_runeblade')
-  event.add('fh:twohanded', 'paladins:aeternium_clayamore')
+  event.add('fh:twohanded', 'paladins:aeternium_claymore')
   event.add('fh:twohanded', 'paladins:aeternium_great_hammer')
   event.add('fh:twohanded', 'paladins:aeternium_mace')
-  event.add('fh:twohanded', 'paladins:diamond_clayamore')
+  event.add('fh:twohanded', 'paladins:diamond_claymore')
   event.add('fh:twohanded', 'paladins:diamond_great_hammer')
   event.add('fh:twohanded', 'paladins:diamond_mace')
-  event.add('fh:twohanded', 'paladins:golden_clayamore')
+  event.add('fh:twohanded', 'paladins:golden_claymore')
   event.add('fh:twohanded', 'paladins:golden_great_hammer')
   event.add('fh:twohanded', 'paladins:golden_mace')
-  event.add('fh:twohanded', 'paladins:iron_clayamore')
+  event.add('fh:twohanded', 'paladins:iron_claymore')
   event.add('fh:twohanded', 'paladins:iron_great_hammer')
   event.add('fh:twohanded', 'paladins:iron_mace')
-  event.add('fh:twohanded', 'paladins:nehterite_clayamore')
+  event.add('fh:twohanded', 'paladins:nehterite_claymore')
   event.add('fh:twohanded', 'paladins:nehterite_mace')
   event.add('fh:twohanded', 'paladins:netherite_great_hammer')
-  event.add('fh:twohanded', 'paladins:ruby_clayamore')
+  event.add('fh:twohanded', 'paladins:ruby_claymore')
   event.add('fh:twohanded', 'paladins:ruby_great_hammer')
   event.add('fh:twohanded', 'paladins:ruby_mace')
-  event.add('fh:twohanded', 'paladins:stone_clayamore')
+  event.add('fh:twohanded', 'paladins:stone_claymore')
   event.add('fh:twohanded', 'paladins:stone_great_hammer')
   event.add('fh:twohanded', 'paladins:wooden_great_hammer')
   event.add('fh:twohanded', 'rouges:aeternium_double_axe')
@@ -347,39 +347,22 @@ ServerEvents.tags('block', event => {
 ServerEvents.recipes(event => {
 
   event.remove({ output: 'ravencoffee:coffee_beans_magma' })
-
   event.remove({output: 'spelunkery:compression_blast_miner'})
-
   event.remove({ output: 'lockandblock:tesla_coil' })
-
   event.remove({ output: 'galosphere:saltbound_tablet' })
-
   event.remove({ output: 'sn0wfrogs_capybaras:thermal_spring' })
-
   event.remove({ output: 'wheelchairs:service_vest' })
-
   event.remove({ output: 'wheelchairs:controller' })
-
   event.remove({ output: 'clutter:tube_tv' })
-
   event.remove({ output: 'herbalbrews:cauldron' })
-
   event.remove({ output: 'vinery:straw_hat' })
-
   event.remove({ output: 'vinery:winemaker_boots' })
-
   event.remove({ output: 'vinery:winemaker_leggings' })
-
   event.remove({ output: 'vinery:winemaker_apron' })
-
   event.remove({ output: 'furniture:bin' })
-
   event.remove({ output: 'brewinandchewin:quiche' })
-
   event.remove({ output: 'createrailwaysnavigator:navigator' })
-
   event.remove({ output: 'mcwwindows:one_way_glass' })
-
   event.remove({ output: 'mcwwindows:one_way_glass_pane' })
 
   event.shapeless(

@@ -18,8 +18,6 @@ ServerEvents.tags('block', event => {
     event.add('supplementaries:brick_breakable_recursive', '#mcwwindows:mosaic_glass_pane')
     event.add('supplementaries:brick_breakable_recursive', '#chipped:glass')
     event.add('supplementaries:brick_breakable_recursive', '#chipped:glass_pane')
-    event.add('supplementaries:throwable_bricks', 'twigs:silt_brick')
-    event.add('supplementaries:throwable_bricks', 'vanillabackport:resin_brick')
     event.add('fh:phasing', '#c:end_stones')
     event.add('fh:phasing', 'betterend:dense_snow')
     event.add('fh:phasing', 'betterend:emerald_ice')

@@ -1,4 +1,6 @@
 ServerEvents.tags('item', event => {
+    event.add('supplementaries:throwable_bricks', 'twigs:silt_brick')
+    event.add('supplementaries:throwable_bricks', 'vanillabackport:resin_brick')
     event.add('fh:absinthegreen', 'nirvana:weed')
     event.add('fh:absinthegreen', 'twigs:bamboo_leaves')
     event.add('fh:absinthegreen', 'croptopia:kale')
