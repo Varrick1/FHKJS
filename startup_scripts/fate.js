@@ -246,7 +246,7 @@ StartupEvents.registry('item', event => {
         .food(food => {
             food
                 .hunger(0)
-                .saturation(2)
+                .saturation(1)
                 .alwaysEdible()
         })
 //boba
@@ -257,7 +257,7 @@ StartupEvents.registry('item', event => {
         .food(food => {
             food
                 .hunger(2)
-                .saturation(2)
+                .saturation(1)
                 .alwaysEdible()
                 .effect('farmersdelight:comfort', 2000, 0, 1)
         })
@@ -269,7 +269,7 @@ StartupEvents.registry('item', event => {
         .food(food => {
             food
                 .hunger(2)
-                .saturation(2)
+                .saturation(1)
                 .alwaysEdible()
                 .effect('farmersdelight:comfort', 2000, 0, 1)
         })
@@ -281,7 +281,7 @@ StartupEvents.registry('item', event => {
         .food(food => {
             food
                 .hunger(2)
-                .saturation(2)
+                .saturation(1)
                 .alwaysEdible()
                 .effect('farmersdelight:comfort', 2000, 0, 1)
         })
@@ -293,7 +293,7 @@ StartupEvents.registry('item', event => {
         .food(food => {
             food
                 .hunger(2)
-                .saturation(2)
+                .saturation(1)
                 .alwaysEdible()
                 .effect('farmersdelight:comfort', 2000, 0, 1)
         })
@@ -305,7 +305,7 @@ StartupEvents.registry('item', event => {
         .food(food => {
             food
                 .hunger(2)
-                .saturation(2)
+                .saturation(1)
                 .alwaysEdible()
                 .effect('farmersdelight:comfort', 2000, 0, 1)
         })
@@ -317,7 +317,7 @@ StartupEvents.registry('item', event => {
         .food(food => {
             food
                 .hunger(2)
-                .saturation(2)
+                .saturation(1)
                 .alwaysEdible()
                 .effect('frightsdelight:hysteria', 2000, 0, 1)
         })
@@ -329,7 +329,7 @@ StartupEvents.registry('item', event => {
         .food(food => {
             food
                 .hunger(2)
-                .saturation(2)
+                .saturation(1)
                 .alwaysEdible()
                 .effect('farmersdelight:comfort', 2000, 0, 1)
         })
@@ -341,7 +341,7 @@ StartupEvents.registry('item', event => {
         .food(food => {
             food
                 .hunger(2)
-                .saturation(2)
+                .saturation(1)
                 .alwaysEdible()
                 .effect('farmersdelight:comfort', 2000, 0, 1)
         })
@@ -353,7 +353,7 @@ StartupEvents.registry('item', event => {
         .food(food => {
             food
                 .hunger(2)
-                .saturation(2)
+                .saturation(1)
                 .alwaysEdible()
                 .effect('farmersdelight:comfort', 2000, 0, 1)
         })
@@ -365,7 +365,7 @@ StartupEvents.registry('item', event => {
         .food(food => {
             food
                 .hunger(2)
-                .saturation(2)
+                .saturation(1)
                 .alwaysEdible()
                 .effect('farmersdelight:comfort', 2000, 0, 1)
         })
@@ -377,7 +377,7 @@ StartupEvents.registry('item', event => {
         .food(food => {
             food
                 .hunger(2)
-                .saturation(2)
+                .saturation(1)
                 .alwaysEdible()
                 .effect('farmersdelight:comfort', 2000, 0, 1)
         })
@@ -389,7 +389,7 @@ StartupEvents.registry('item', event => {
         .food(food => {
             food
                 .hunger(2)
-                .saturation(2)
+                .saturation(1)
                 .alwaysEdible()
                 .effect('farmersdelight:comfort', 2000, 0, 1)
         })
@@ -790,7 +790,7 @@ StartupEvents.registry('item', event => {
         .food(food => {
             food
                 .hunger(4)
-                .saturation(2)
+                .saturation(1)
                 .effect('farmersdelight:comfort', 2000, 1, 1)
         })
 
@@ -800,7 +800,7 @@ StartupEvents.registry('item', event => {
         .food(food => {
             food
                 .hunger(4)
-                .saturation(2)
+                .saturation(1)
                 .effect('farmersdelight:comfort', 2000, 1, 1)
         })
 
@@ -820,7 +820,7 @@ StartupEvents.registry('item', event => {
         .food(food => {
             food
                 .hunger(4)
-                .saturation(2)
+                .saturation(1)
                 .effect('farmersdelight:comfort', 2000, 1, 1)
         })
 
@@ -830,7 +830,7 @@ StartupEvents.registry('item', event => {
         .food(food => {
             food
                 .hunger(4)
-                .saturation(2)
+                .saturation(1)
                 .effect('farmersdelight:comfort', 2000, 1, 1)
         })
 
@@ -840,7 +840,7 @@ StartupEvents.registry('item', event => {
         .food(food => {
             food
                 .hunger(4)
-                .saturation(2)
+                .saturation(1)
                 .effect('farmersdelight:comfort', 2000, 1, 1)
         })
 
@@ -850,7 +850,7 @@ StartupEvents.registry('item', event => {
         .food(food => {
             food
                 .hunger(4)
-                .saturation(2)
+                .saturation(1)
                 .effect('farmersdelight:comfort', 2000, 1, 1)
         })
 
@@ -860,7 +860,7 @@ StartupEvents.registry('item', event => {
         .food(food => {
             food
                 .hunger(4)
-                .saturation(2)
+                .saturation(1)
                 .effect('farmersdelight:comfort', 2000, 1, 1)
         })
 
@@ -870,7 +870,7 @@ StartupEvents.registry('item', event => {
         .food(food => {
             food
                 .hunger(4)
-                .saturation(2)
+                .saturation(1)
                 .effect('farmersdelight:comfort', 2000, 1, 1)
         })
 
@@ -880,7 +880,7 @@ StartupEvents.registry('item', event => {
         .food(food => {
             food
                 .hunger(4)
-                .saturation(2)
+                .saturation(1)
                 .effect('farmersdelight:comfort', 2000, 1, 1)
         })
 
@@ -891,7 +891,7 @@ StartupEvents.registry('item', event => {
         .food(food => {
             food
                 .hunger(4)
-                .saturation(2)
+                .saturation(1)
                 .effect('farmersdelight:comfort', 2000, 1, 1)
 
         })
@@ -902,7 +902,7 @@ StartupEvents.registry('item', event => {
         .food(food => {
             food
                 .hunger(4)
-                .saturation(2)
+                .saturation(1)
                 .effect('farmersdelight:comfort', 2000, 1, 1)
         })
 
@@ -912,7 +912,7 @@ StartupEvents.registry('item', event => {
         .food(food => {
             food
                 .hunger(4)
-                .saturation(2)
+                .saturation(1)
                 .effect('farmersdelight:comfort', 2000, 1, 1)
         })
 
@@ -922,7 +922,7 @@ StartupEvents.registry('item', event => {
         .food(food => {
             food
                 .hunger(4)
-                .saturation(2)
+                .saturation(1)
                 .effect('farmersdelight:comfort', 2000, 1, 1)
         })
 
@@ -932,7 +932,7 @@ StartupEvents.registry('item', event => {
         .food(food => {
             food
                 .hunger(4)
-                .saturation(2)
+                .saturation(1)
                 .effect('farmersdelight:comfort', 2000, 1, 1)
         })
 
@@ -942,7 +942,7 @@ StartupEvents.registry('item', event => {
         .food(food => {
             food
                 .hunger(4)
-                .saturation(2)
+                .saturation(1)
                 .effect('farmersdelight:comfort', 2000, 1, 1)
         })
 
@@ -952,7 +952,7 @@ StartupEvents.registry('item', event => {
         .food(food => {
             food
                 .hunger(4)
-                .saturation(2)
+                .saturation(1)
                 .effect('farmersdelight:comfort', 2000, 1, 1)
         })
 
@@ -962,7 +962,7 @@ StartupEvents.registry('item', event => {
         .food(food => {
             food
                 .hunger(4)
-                .saturation(2)
+                .saturation(1)
                 .effect('farmersdelight:comfort', 2000, 1, 1)
         })
 
@@ -972,7 +972,7 @@ StartupEvents.registry('item', event => {
         .food(food => {
             food
                 .hunger(4)
-                .saturation(2)
+                .saturation(1)
                 .effect('farmersdelight:comfort', 2000, 1, 1)
         })
 

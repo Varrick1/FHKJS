@@ -1,3 +1,5 @@
+// priority: 1
+
 ServerEvents.recipes(event => {
     event.shaped(
         Item.of('verdance:silkworm_eggs'),
@@ -42,6 +44,24 @@ ServerEvents.recipes(event => {
 
             S: 'create:cogwheel',
             E: 'minecraft:crossbow'
+
+        }
+    )
+
+    event.shaped(
+        Item.of('mcdw:scythe_soul_scythe'),
+        [
+            'IDK',
+            'ISN',
+            'SI '
+        ],
+        {
+
+            S: 'minecraft:stick',
+            K: 'mcdw:sickle_sickle',
+            I: '#c:iron_ingots',
+            N: '#c:netherite_ingots',
+            D: '#c:diamonds'
 
         }
     )

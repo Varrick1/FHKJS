@@ -4,6 +4,10 @@
 
 console.info('THE ***NETHER*** IS SUPPOSED TO BE ***HOT***')
 
+ServerEvents.recipes(event => {
+    event.remove({ output: 'mcdw:scythe_soul_scythe' })
+})
+
 ServerEvents.tags('worldgen/biome', event =>{
     event.removeAllTagsFrom('pyrellium:frostburn_valley')
 })

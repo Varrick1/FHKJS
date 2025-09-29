@@ -3,3 +3,7 @@ ServerEvents.tags('item', event => {
     event.add('swordblockingmechanics:can_perform_sword_blocking', '#fh:twohanded')
     event.remove('swordblockingmechanics:can_perform_sword_blocking', '#minecraft:swords')
 })
+
+ServerEvents.tags('block', event => {
+    event.add('quad:immune/all', 'yigd:grave')
+})

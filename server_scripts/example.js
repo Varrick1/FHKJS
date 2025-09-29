@@ -8,45 +8,6 @@ ServerEvents.tags('entity', event => {
   event.add('supplementaries:jar_catchable', 'betternether:firefly')
   event.add('supplementaries:jar_catchable', 'crittersandcompanions:dumbo_octopus')
   event.add('supplementaries:jar_catchable', 'crittersandcompanions:sea_bunny')
-  event.add('supplementaries:jar_catchable', 'hybrid-aquatic:african_butterfly')
-  event.add('supplementaries:jar_catchable', 'hybrid-aquatic:barreleye')
-  event.add('supplementaries:jar_catchable', 'hybrid-aquatic:betta')
-  event.add('supplementaries:jar_catchable', 'hybrid-aquatic:damselfish')
-  event.add('supplementaries:jar_catchable', 'hybrid-aquatic:carp')
-  event.add('supplementaries:jar_catchable', 'hybrid-aquatic:clownfish')
-  event.add('supplementaries:jar_catchable', 'hybrid-aquatic:boxfish')
-  event.add('supplementaries:jar_catchable', 'hybrid-aquatic:danio')
-  event.add('supplementaries:jar_catchable', 'hybrid-aquatic:discus')
-  event.add('supplementaries:jar_catchable', 'hybrid-aquatic:flashlight_fish')
-  event.add('supplementaries:jar_catchable', 'hybrid-aquatic:squirrelfish')
-  event.add('supplementaries:jar_catchable', 'hybrid-aquatic:pearlfish')
-  event.add('supplementaries:jar_catchable', 'hybrid-aquatic:flying_fish')
-  event.add('supplementaries:jar_catchable', 'hybrid-aquatic:goldfish')
-  event.add('supplementaries:jar_catchable', 'hybrid-aquatic:gourami')
-  event.add('supplementaries:jar_catchable', 'hybrid-aquatic:mackerel')
-  event.add('supplementaries:jar_catchable', 'hybrid-aquatic:oscar')
-  event.add('supplementaries:jar_catchable', 'hybrid-aquatic:piranha')
-  event.add('supplementaries:jar_catchable', 'hybrid-aquatic:rockfish')
-  event.add('supplementaries:jar_catchable', 'hybrid-aquatic:seahorse')
-  event.add('supplementaries:jar_catchable', 'hybrid-aquatic:surgeonfish')
-  event.add('supplementaries:jar_catchable', 'hybrid-aquatic:tetra')
-  event.add('supplementaries:jar_catchable', 'hybrid-aquatic:tiger_barb')
-  event.add('supplementaries:jar_catchable', 'hybrid-aquatic:toadfish')
-  event.add('supplementaries:jar_catchable', 'hybrid-aquatic:snailfish')
-  event.add('supplementaries:jar_catchable', 'hybrid-aquatic:nautilus')
-  event.add('supplementaries:jar_catchable', 'hybrid-aquatic:umbrella_octopus')
-  event.add('supplementaries:jar_catchable', 'hybrid-aquatic:moon_jellyfish')
-  event.add('supplementaries:jar_catchable', 'hybrid-aquatic:box_jellyfish')
-  event.add('supplementaries:jar_catchable', 'hybrid-aquatic:mauve_stinger')
-  event.add('supplementaries:jar_catchable', 'hybrid-aquatic:cosmic_jellyfish')
-  event.add('supplementaries:jar_catchable', 'hybrid-aquatic:firework_jellyfish')
-  event.add('supplementaries:jar_catchable', 'hybrid-aquatic:shrimp')
-  event.add('supplementaries:jar_catchable', 'hybrid-aquatic:nudibranch')
-  event.add('supplementaries:jar_catchable', 'hybrid-aquatic:sea_urchin')
-  event.add('supplementaries:jar_catchable', 'hybrid-aquatic:sea_cucumber')
-  event.add('supplementaries:jar_catchable', 'hybrid-aquatic:starfish')
-  event.add('supplementaries:jar_catchable', 'hybrid-aquatic:sea_angel')
-  event.add('supplementaries:jar_catchable', 'hybrid-aquatic:lantern_shark')
 })
 
 ServerEvents.tags('item', event => {
@@ -202,6 +163,8 @@ ServerEvents.tags('item', event => {
   event.add('fh:twohanded', 'mcdw:glaive_grave_bane')
   event.add('fh:twohanded', 'mcdw:glaive_venom_glaive')
   event.add('fh:twohanded', 'mcdw:glaive_glaive')
+      event.add('supplementaries:throwable_bricks', 'twigs:silt_brick')
+    event.add('supplementaries:throwable_bricks', 'vanillabackport:resin_brick')
   // Get the C:Salt_Dusts tag and add the Vegan Delight Salt? Hopefully?
   event.add('c:salt_dusts', 'vegandelight:salt')
   event.add('c:salt_dust', 'vegandelight:salt')
@@ -347,22 +310,39 @@ ServerEvents.tags('block', event => {
 ServerEvents.recipes(event => {
 
   event.remove({ output: 'ravencoffee:coffee_beans_magma' })
+
   event.remove({output: 'spelunkery:compression_blast_miner'})
+
   event.remove({ output: 'lockandblock:tesla_coil' })
+
   event.remove({ output: 'galosphere:saltbound_tablet' })
+
   event.remove({ output: 'sn0wfrogs_capybaras:thermal_spring' })
+
   event.remove({ output: 'wheelchairs:service_vest' })
+
   event.remove({ output: 'wheelchairs:controller' })
+
   event.remove({ output: 'clutter:tube_tv' })
+
   event.remove({ output: 'herbalbrews:cauldron' })
+
   event.remove({ output: 'vinery:straw_hat' })
+
   event.remove({ output: 'vinery:winemaker_boots' })
+
   event.remove({ output: 'vinery:winemaker_leggings' })
+
   event.remove({ output: 'vinery:winemaker_apron' })
+
   event.remove({ output: 'furniture:bin' })
+
   event.remove({ output: 'brewinandchewin:quiche' })
+
   event.remove({ output: 'createrailwaysnavigator:navigator' })
+
   event.remove({ output: 'mcwwindows:one_way_glass' })
+
   event.remove({ output: 'mcwwindows:one_way_glass_pane' })
 
   event.shapeless(

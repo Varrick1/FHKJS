@@ -1,6 +1,4 @@
 ServerEvents.tags('item', event => {
-    event.add('supplementaries:throwable_bricks', 'twigs:silt_brick')
-    event.add('supplementaries:throwable_bricks', 'vanillabackport:resin_brick')
     event.add('fh:absinthegreen', 'nirvana:weed')
     event.add('fh:absinthegreen', 'twigs:bamboo_leaves')
     event.add('fh:absinthegreen', 'croptopia:kale')
@@ -38,13 +36,29 @@ ServerEvents.tags('item', event => {
 })
 
 ServerEvents.recipes(event => {
+
+    event.shaped(
+        Item.of('sophisticatedbackpacks:backpack'),
+        [
+            'LNL',
+            'LSL',
+            'LLL'
+        ],
+        {
+            N: 'minecraft:iron_nugget',
+            S: 'minecraft:string',
+            L: '#c:leather'
+        }
+    )
+    
     event.remove({ output: 'ravencoffee:coffee_beans_magma_block' })
     event.remove({ output: 'ravencoffee:coffee_plates' })
     event.remove({ output: 'ravencoffee:coffee_ingot' })
     event.remove({ input: 'ravencoffee:coffee_ingot' })
     event.remove({ id: 'croptopia:beer' })
+    event.remove({ output: 'minecraft:wither_skeleton_skull' })
     event.remove({ id: 'croptopia:wine' })
-    event.remove({ output: 'numismatics:cards' })
+    event.remove({ output: '#numismatics:cards' })
 
     event.shapeless(
         Item.of('fh:shot_of_bourbon', 4),
